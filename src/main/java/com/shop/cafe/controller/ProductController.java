@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @RestController
-@CrossOrigin("http://localhost:5500/")
+//@CrossOrigin("http://localhost:8080/")
 public class ProductController {
 	
 	@Autowired //DI 의존성 주입 new 해주는 것 

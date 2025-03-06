@@ -27,8 +27,7 @@ public class ProductDao {
 	
 	public List<Product> getAllProducts() throws Exception{
 		
-		Class.forName(DB_DRIVER);		
-		
+		Class.forName(DB_DRIVER);
 		String sql="select * from product";
 		
 		try(
